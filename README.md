@@ -1,5 +1,5 @@
 // Andrew Zhu, Aaron Pollack, Siyao Xu
-// CPSC 5500 Networks Project 2
+
 
 Running the Program:
   The project consists of the main cpp file [proxy.cpp], a header file [proxy.h], a MakeFile and a README.
