@@ -16,7 +16,7 @@ Code Design Decisions and Contributions:
   Each group member contributed equally as our team met regularly to discuss, contribute, and debug
   accordingly. We used version control through a private github repository. When together, no one
   person would be assigned a definitive task, but rather we often used sprints collectively and divided
-  tasks into subcomponents to save time, an example: Yiyun and Siyao worked on parsing the user request
+  tasks into subcomponents to save time, an example: Andrew and Siyao worked on parsing the user request
   input to be sent into the proxy server. Aaron, then worked on combining the user request to be sent
   to the web host and then passed back to the client. We choose to eagerly send a 500 back to the user before attempting to establish   the connection with the server, that way we don't use anymore resources than necessary. We also used the getaddrinfo unix call to resolve the server host to an IP. This will do it's best to resolve either the FQDN (ex www.google.com) or just the minimum domain google.com.
 
