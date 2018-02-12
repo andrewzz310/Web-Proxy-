@@ -30,14 +30,15 @@ Code Design Decisions and Contributions:
 Notes and Considerations:
 1) Port #chosen is between 8001-8999
 2) Performance only considered up to a maximum of 30 users.
-3) Our Test Cases light pages (firefox):
+3) Client needs to be discoverable by host (vpn or on same network)
+4) Our Test Cases light pages (firefox):
   http://www.google.com/
   http://www.yahoo.com/
   http://www.washington.edu/
   http://www.msnbc.com/
   http://www.theuselessweb.com/
 
-4) Our Test Cases heavy pages (firefox):
+5) Our Test Cases heavy pages (firefox):
   http://www.foxnews.com/
   http://www.sina.com.cn/
   http://abcnews.go.com/
