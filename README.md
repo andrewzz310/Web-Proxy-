@@ -1,4 +1,4 @@
-// Andrew Zhu
+// Andrew Zhu, Siyao Xu, Aaron Pollack
 
 
 Running the Program:
